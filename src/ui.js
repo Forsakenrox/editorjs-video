@@ -24,7 +24,7 @@ export default class Ui {
       videoContainer: make("div", [this.CSS.videoContainer]),
       fileButton: this.createFileButton(),
       videoEl: undefined,
-      videoPreloader: make("video", this.CSS.videoPreloader),
+      videoPreloader: make("div", this.CSS.videoPreloader),
       caption: make("div", [this.CSS.input, this.CSS.caption], {
         contentEditable: !this.readOnly,
       }),
